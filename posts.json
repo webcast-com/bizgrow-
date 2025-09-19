@@ -1,0 +1,26 @@
+[
+  {
+    "id": "start-business",
+    "title": "10 Steps to Start a Business",
+    "excerpt": "Turn your idea into a profitable venture with this beginner-friendly guide.",
+    "image": "images/startup.jpg",
+    "category": "Start a Business",
+    "content": "<p>Starting a business can be overwhelming, but breaking it into steps makes it manageable. Here are 10 steps to get started...</p>"
+  },
+  {
+    "id": "scaling-growth",
+    "title": "Scaling Without Burning Out",
+    "excerpt": "Learn how to grow sustainably and avoid burnout as an entrepreneur.",
+    "image": "images/growth.jpg",
+    "category": "Grow Your Business",
+    "content": "<p>Growth is exciting, but rapid scaling can be dangerous. Here's how to plan for steady, healthy expansion...</p>"
+  },
+  {
+    "id": "marketing-funnels",
+    "title": "5 Marketing Funnels That Work",
+    "excerpt": "Boost conversions with these proven funnel strategies.",
+    "image": "images/marketing.jpg",
+    "category": "Online Marketing",
+    "content": "<p>Funnels guide your audience through a journey to becoming customers. These five funnel examples work in almost every niche...</p>"
+  }
+]
