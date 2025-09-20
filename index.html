@@ -47,38 +47,16 @@
   </section>
 
   <!-- Featured Posts -->
-  <section class="max-w-6xl mx-auto py-12 px-6">
-    <h2 class="text-2xl font-bold mb-6">Featured Posts</h2>
-    <div class="grid md:grid-cols-3 gap-6">
-      <article class="bg-white rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/startup.jpg" alt="Start a Business" class="rounded-t-xl">
-        <div class="p-4">
-          <h3 class="font-semibold text-lg mb-2">How to Register Your Business</h3>
-          <p class="text-gray-600 text-sm mb-4">A beginner’s guide to setting up legally.</p>
-          <a href="post.html" class="text-blue-600 font-medium">Read More →</a>
-        </div>
-      </article>
+   <section class="max-w-6xl mx-auto py-12 px-6">
+  <h2 class="text-2xl font-bold mb-6">Featured Posts</h2>
+  <div id="featured-posts" class="grid md:grid-cols-3 gap-6"></div>
+</section>
 
-      <article class="bg-white rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/growth.jpg" alt="Grow Your Business" class="rounded-t-xl">
-        <div class="p-4">
-          <h3 class="font-semibold text-lg mb-2">Scaling Without Burning Out</h3>
-          <p class="text-gray-600 text-sm mb-4">Learn to scale sustainably.</p>
-          <a href="post.html" class="text-blue-600 font-medium">Read More →</a>
-        </div>
-      </article>
-
-      <article class="bg-white rounded-xl shadow hover:shadow-lg transition">
-        <img src="images/marketing.jpg" alt="Earn Online" class="rounded-t-xl">
-        <div class="p-4">
-          <h3 class="font-semibold text-lg mb-2">5 Marketing Funnels That Work</h3>
-          <p class="text-gray-600 text-sm mb-4">Boost conversions with proven funnels.</p>
-          <a href="post.html" class="text-blue-600 font-medium">Read More →</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
+<script src="scripts.js"></script>
+<script>
+  loadPosts("featured-posts", true);
+</script>  
+  
   <!-- Footer -->
   <footer class="bg-gray-900 text-gray-300 py-6 text-center">
     <p>&copy; 2025 BizGrowth Blog. All rights reserved.</p>
