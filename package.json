@@ -1,0 +1,19 @@
+{
+  "name": "bizgrowth-blog",
+  "version": "1.0.0",
+  "description": "A business growth blog with articles on starting, growing, and marketing businesses",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 5173 -o",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx http-server . -p 4173"
+  },
+  "keywords": [
+    "blog",
+    "business",
+    "growth",
+    "marketing"
+  ],
+  "author": "",
+  "license": "MIT"
+}
